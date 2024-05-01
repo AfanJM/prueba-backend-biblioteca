@@ -64,6 +64,8 @@ export class UserController {
 
         const {id} = req.params
 
+        if(!id || !validators.IsMongoId(id)) return res.status(400).json({error: 'id not valid'})
+
         const [error, dto] = UpdateUserDto.create( req.body )
 
         if(error) return res.status(400).json({msg: error})

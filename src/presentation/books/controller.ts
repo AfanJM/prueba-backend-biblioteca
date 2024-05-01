@@ -65,6 +65,9 @@ export class BookController {
 
         const {id} = req.params
 
+        if(!id || !validators.IsMongoId(id)) return res.status(400).json({error: 'id not valid'})
+
+
         const [error, dto] = UpdateBookDto.create(req.body)
 
         if(error) return res.status(400).json({error: error})
