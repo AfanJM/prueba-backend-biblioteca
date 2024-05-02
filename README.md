@@ -6,7 +6,7 @@ Este proyecto constituye el backend de un sistema de biblioteca, que proporciona
 
 Usuarios
 - GetAll: https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users
-- GetById: https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users/id 
+- GetById: https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users/6632c2e3dd493a7c5620d02a
 - POST: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users/create`
 - PUT: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users/id`
 - DELETE: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users/id `
