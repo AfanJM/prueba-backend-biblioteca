@@ -18,6 +18,13 @@ Libros
 - PUT: `/api/v1/books/id`
 - DELETE: `/api/v1/books/id`
 
+Prestamos
+- GetAll: `/api/v1/loan`
+- GetById: `/api/v1/loan/id`
+- POST: `/api/v1/loan/create`
+- PUT: `/api/v1/loan/id`
+- DELETE: `/api/v1/loan/id`
+
 
 
 # Documentacion: 
