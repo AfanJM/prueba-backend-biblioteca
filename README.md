@@ -11,12 +11,12 @@ Usuarios
 - PUT: `/api/v1/users/id`
 - DELETE: `/api/v1/users/id `
 
-  Libros
-  - GetAll: `/api/v1/books`
-  - GetById: `/api/v1/books/id`
-  - POST: `/api/v1/books/create`
-  - PUT: `/api/v1/books/id`
-  - DELETE: `/api/v1/books/id`
+Libros
+- GetAll: `/api/v1/books`
+- GetById: `/api/v1/books/id`
+- POST: `/api/v1/books/create`
+- PUT: `/api/v1/books/id`
+- DELETE: `/api/v1/books/id`
 
 
 
