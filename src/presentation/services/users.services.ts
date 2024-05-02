@@ -14,8 +14,10 @@ export class USerServices {
             .populate('books')
     
             return {
+                status: "ok",
                 data: { user }
             }
+
 
         } catch (error) {
 

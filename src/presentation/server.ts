@@ -1,4 +1,7 @@
+import swaggerDocs from '../config/swagger'
+
 import express, {Router} from 'express';
+
 
 interface OptionsServer {
 
@@ -10,6 +13,7 @@ interface OptionsServer {
 
 export class Server {
 
+    public readonly docs = swaggerDocs
     public readonly app = express();
     private readonly port: number;
     private readonly routes: Router;
@@ -36,6 +40,10 @@ export class Server {
         //listen
         this.app.listen(this.port, () => {
             console.log(`Server on port ${this.port}`);
+
+            this.docs(this.app, this.port)
+            console.log(`https://prueba-backend-biblioteca-production.up.railway.app/api/v1/docs`);
+
         });
 
 
