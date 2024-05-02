@@ -25,10 +25,11 @@ Prestamos
 - PUT: `/api/v1/loan/id`
 - DELETE: `/api/v1/loan/id`
 
-
-
 # Documentacion: 
 -  https://prueba-backend-biblioteca-production.up.railway.app/api/v1/docs/
 -  https://documenter.getpostman.com/view/25921336/2sA3JFBQT3
+
+![image](https://github.com/AfanJM/prueba-backend-biblioteca/assets/129919016/5edfd967-2541-4bdd-b519-2a950719b6ed)
+
 
 
