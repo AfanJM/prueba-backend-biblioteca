@@ -31,5 +31,12 @@ Prestamos
 
 ![image](https://github.com/AfanJM/prueba-backend-biblioteca/assets/129919016/5edfd967-2541-4bdd-b519-2a950719b6ed)
 
+<video width="320" height="240" controls>
+  <source src="URL_del_video" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+
+
+
 
 
