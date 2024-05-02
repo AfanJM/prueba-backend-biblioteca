@@ -3,12 +3,22 @@
 Este proyecto constituye el backend de un sistema de biblioteca, que proporciona funcionalidades para gestionar usuarios, libros y préstamos. Utiliza métodos HTTP para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en cada una de las entidades.
 
 ## Endpoints:
+
 Usuarios
-- GetAll: https://prueba-backend-biblioteca-production.up.railway.app/api/v1/loan
-- GetById: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/loan/6632c325dd493a7c5620d031 `
-- POST: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/loan/create`
-- PUT: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/loan/6632c325dd493a7c5620d031`
-- DELETE: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/loan/6632c325dd493a7c5620d031 `
+- GetAll: `/api/v1/users`
+- GetById: `/api/v1/users/id `
+- POST: `/api/v1/users/create`
+- PUT: `/api/v1/users/id`
+- DELETE: `/api/v1/users/id `
+
+  Libros
+  - GetAll: `/api/v1/books`
+  - GetById: `/api/v1/books/id`
+  - POST: `/api/v1/books/create`
+  - PUT: `/api/v1/books/id`
+  - DELETE: `/api/v1/books/id`
+
+
 
 # Documentacion: 
 -  https://prueba-backend-biblioteca-production.up.railway.app/api/v1/docs/
