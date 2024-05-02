@@ -5,11 +5,11 @@ Este proyecto constituye el backend de un sistema de biblioteca, que proporciona
 ## Endpoints:
 
 Usuarios
-- GetAll: `/api/v1/users`
-- GetById: `/api/v1/users/id `
-- POST: `/api/v1/users/create`
-- PUT: `/api/v1/users/id`
-- DELETE: `/api/v1/users/id `
+- GetAll: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users`
+- GetById: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users/id `
+- POST: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users/create`
+- PUT: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users/id`
+- DELETE: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users/id `
 
 Libros
 - GetAll: `/api/v1/books`
