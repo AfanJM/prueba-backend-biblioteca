@@ -12,18 +12,18 @@ Usuarios
 - DELETE: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/users/id `
 
 Libros
-- GetAll: `/api/v1/books`
-- GetById: `/api/v1/books/id`
-- POST: `/api/v1/books/create`
-- PUT: `/api/v1/books/id`
-- DELETE: `/api/v1/books/id`
+- GetAll: https://prueba-backend-biblioteca-production.up.railway.app/api/v1/books
+- GetById: https://prueba-backend-biblioteca-production.up.railway.appapi/v1/books/6632c299dd493a7c5620d027
+- POST: `https://prueba-backend-biblioteca-production.up.railway.appapi/v1/books/create`
+- PUT: `https://prueba-backend-biblioteca-production.up.railway.appapi/v1/books/id`
+- DELETE: `https://prueba-backend-biblioteca-production.up.railway.appapi/v1/books/id`
 
 Prestamos
-- GetAll: `/api/v1/loan`
-- GetById: `/api/v1/loan/id`
-- POST: `/api/v1/loan/create`
-- PUT: `/api/v1/loan/id`
-- DELETE: `/api/v1/loan/id`
+- GetAll: https://prueba-backend-biblioteca-production.up.railway.app/api/v1/loan
+- GetById: https://prueba-backend-biblioteca-production.up.railway.app/api/v1/loan/6632c325dd493a7c5620d031
+- POST: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/loan/create`
+- PUT: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/loan/id`
+- DELETE: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/loan/id`
 
 # Documentacion: 
 -  Desplegada: https://prueba-backend-biblioteca-production.up.railway.app/api/v1/docs/
