@@ -11,6 +11,7 @@ Usuarios
 - DELETE: `https://prueba-backend-biblioteca-production.up.railway.app/api/v1/loan/6632c325dd493a7c5620d031 `
 
 # Documentacion: 
--  https://prueba-backend-biblioteca-production.up.railway.app/api/v1/docs/ 
+-  https://prueba-backend-biblioteca-production.up.railway.app/api/v1/docs/
+-  https://documenter.getpostman.com/view/25921336/2sA3JFBQT3
 
 
