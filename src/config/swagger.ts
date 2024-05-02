@@ -14,9 +14,9 @@ export const swaggerSpec = swaggerJSDoc(option)
 
 const swaggerDocs = (app: any, port: any) => {
 
-    app.use('https://prueba-backend-biblioteca-production.up.railway.app/api/v1/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec))
+    app.use('/api/v1/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec))
 
-    app.get('https://prueba-backend-biblioteca-production.up.railway.app/api/v1/docs.json', (req: Request, res: Response) => {
+    app.get('/api/v1/docs.json', (req: Request, res: Response) => {
 
         res.setHeader("Content-Type", "application/json")
 
@@ -24,7 +24,7 @@ const swaggerDocs = (app: any, port: any) => {
 
     })
 
+
 }
 
 export default swaggerDocs
-
